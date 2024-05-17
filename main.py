@@ -1,13 +1,15 @@
 from Source import Classes
 
-myBoiler = Classes.Boiler("Morning JOR, I'm the boiler!")
-myBoiler.my_method()
+debug_flag = True
 
-myOilBurner = Classes.OilBurner("Morning JOR, I'm the Oil Burner!")
+myBoiler = Classes.Boiler("Boiler Object", debug_flag)
+#myBoiler.my_method()
+
+myOilBurner = Classes.OilBurner("Oil Burner Object")
 myOilBurner.my_method()
 
-myWoodBurner = Classes.WoodBurner("Morning JOR, I'm the Wood Burner!")
+myWoodBurner = Classes.WoodBurner("Wood Burner Object")
 myWoodBurner.my_method()
 
-myImmersion = Classes.Immersion("Morning JOR, I'm the Immersion!")
+myImmersion = Classes.Immersion("Immersion Object")
 myImmersion.my_method()

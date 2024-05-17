@@ -1,51 +1,88 @@
 """
-Parent class Template by JOR
-In any complex application, create a base class which will never be instantiated.
+Boiler Class
 """
 
+# Create a class 
 class Boiler():
     
-    # Define a class object attribute, the same for any instance of the class
-    pi = 3.142
-
     # Constructor, called whenever an instance of the class is created.
-    def __init__(self) -> None:
-        print("Running constructor for base class")
+    def __init__(self, my_greeting):
+        print("Running constructor for Boiler")
         # Create attributes and set initial values
-        self.debug = False
+        self.message = my_greeting
 
-    def run(self):
-        raise NotImplementedError("This is an abstract class, do not instantiate")
+    def my_method(self):
+        print(self.message)
 
-    def calculate_crc(self, frame:str)->int: 
-        print("Checking CRC from base")
-        # Put real code in here, this is a dummy value for initial setup
-        crc = 123456789
-        return crc
+
+
+my_class1 = Boiler("Morning JOR!")
+my_class1.my_method()
+print(type(my_class1))
 
 
 """
-Child class Template by JOR
-Create child class which can access the methods and properties of the base class
+OilBurner Class
 """
 
-class WoodChipHeater(Boiler):
-
-    # Constructor, called whenever an instance of the class is created.
-    # Use parameter1 as a tag to identify the object
-    def __init__(self, parameter1) -> None:
-        # Call back to the parent class
-        Device.__init__(self)
-        print(f"Running constructor for {parameter1}")
-        # Create attributes and set initial values
-        self.parameter1 = parameter1
-        self.test_message = ""
+# Create a class 
+class OilBurner():
     
-    def configureself):
-        print("Configuring Boiler")
+    # Constructor, called whenever an instance of the class is created.
+    def __init__(self, my_greeting):
+        print("Running constructor for Oil Burner")
+        # Create attributes and set initial values
+        self.message = my_greeting
 
-    def calculate_crc(self, frame:str)->int: 
-        print("Checking CRC from child")
-        # Put real code in here, this is a dummy value for initial setup
-        crc = 123456789
-        return crc
+    def my_method(self):
+        print(self.message)
+
+
+
+my_class1 = OilBurner("Morning JOR!")
+my_class1.my_method()
+print(type(my_class1))
+
+"""
+WoodBurner Class
+"""
+
+# Create a class 
+class WoodBurner():
+    
+    # Constructor, called whenever an instance of the class is created.
+    def __init__(self, my_greeting):
+        print("Running constructor for Wood Burner")
+        # Create attributes and set initial values
+        self.message = my_greeting
+
+    def my_method(self):
+        print(self.message)
+
+
+
+my_class1 = WoodBurner("Morning JOR!")
+my_class1.my_method()
+print(type(my_class1))
+
+"""
+Immersion Class
+"""
+
+# Create a class 
+class Immersion():
+    
+    # Constructor, called whenever an instance of the class is created.
+    def __init__(self, my_greeting):
+        print("Running constructor for Immersion")
+        # Create attributes and set initial values
+        self.message = my_greeting
+
+    def my_method(self):
+        print(self.message)
+
+
+
+my_class1 = Immersion("Morning JOR!")
+my_class1.my_method()
+print(type(my_class1))

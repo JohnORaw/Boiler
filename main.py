@@ -1,7 +1,13 @@
 from Source import Classes
 
-# Create a wood burner instance
-myWoodBurner = WoodBurner("myWoodBurner")
-# Configure it
-myWoodBurner.configure_firewall()
+myBoiler = Classes.Boiler("Morning JOR, I'm the boiler!")
+myBoiler.my_method()
 
+myOilBurner = Classes.OilBurner("Morning JOR, I'm the Oil Burner!")
+myOilBurner.my_method()
+
+myWoodBurner = Classes.WoodBurner("Morning JOR, I'm the Wood Burner!")
+myWoodBurner.my_method()
+
+myImmersion = Classes.Immersion("Morning JOR, I'm the Immersion!")
+myImmersion.my_method()

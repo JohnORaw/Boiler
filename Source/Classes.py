@@ -16,10 +16,6 @@ class Boiler():
 
 
 
-my_class1 = Boiler("Morning JOR!")
-my_class1.my_method()
-print(type(my_class1))
-
 
 """
 OilBurner Class

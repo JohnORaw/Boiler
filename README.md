@@ -20,3 +20,6 @@ Before anyone points out the lack of enviromental friendlyness, I live in Donega
 The two government schemes to address this are an exercise in cynical politics, most of us consider these schemes to be an unusable excuse to say they have done something.
 And don't talk about green policies, the last scheme (which had the green party in government) requires people to rebuild to 2008 standards, reuse old windows, etc.
 So I'm as environmentally friendly as I can afford to be, despite government policy.
+
+The 1-wire temperature sensors demo code and hardware can be reviewed 
+[here.](https://https://github.com/JohnORaw/DS18/README.md)

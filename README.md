@@ -25,4 +25,6 @@ So I'm as environmentally friendly as I can afford to be, despite government pol
 [here.](https://github.com/JohnORaw/DS18B20)
 
 2. The BME280 with ambient temperature, pressure and humidity can be reviewed
-[here.](https://github.com/JohnORaw/BME280)  
+[here.](https://github.com/JohnORaw/BME280)
+
+3. Next addition is for three ultrasonic flow transducers.

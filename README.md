@@ -9,8 +9,9 @@ One of the biggest sinks of energy in my house is my boiler. The original design
 - There are 14 radiators downstairs and 8 upstairs. They have zone switches so I can isolate up and down. I have Shelly switches to automate this later in the project. Each radiator has a thermostatic valve.
 
 One little bit at a time, this project will model the heating system.
-The first iteration uses six temperature sensors to give a view of the instantaneous state of the boiler.
-After this, it is going to be a matter of adding one bit of thermodynamics at a time.
+The first iteration (2021) uses six temperature sensors to give a view of the instantaneous state of the boiler.
+There is also ambient temperaure, pressure and humidity measurement (2022).
+After this, it is going to be a matter of adding one bit of thermodynamics at a time (>=2024).
 The goal; make the model match reality.
 
 The definition of a digital twin, now there's a contentious issue. Does this need to be Laplace's daemon before its a digital twin? Nope, I'm chasing useful functionality, not a defeat of chaos theory.

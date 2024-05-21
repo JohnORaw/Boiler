@@ -14,7 +14,7 @@ After this, it is going to be a matter of adding one bit of thermodynamics at a 
 The goal; make the model match reality.
 
 The definition of a digital twin, now there's a contentious issue. Does this need to be Laplace's daemon before its a digital twin? Nope, I'm chasing useful functionality, not a defeat of chaos theory.
-I'm going to go with a goal of a model which reflects a real system, which can be fed with archical/real/simulated data to provide useful analysis. 
+I'm going to go with a goal of a model which reflects a real system, which can be fed with archical/real/simulated data to provide useful analysis. I need to understand the domain within which the model is valid and the magnitude of the error bars.
 
 Before anyone points out the lack of enviromental friendlyness, I live in Donegal, where regulatory and political incompetence has left many people with soluble houses (!).
 The two government schemes to address this are an exercise in cynical politics, most of us consider these schemes to be an unusable excuse to say they have done something.
